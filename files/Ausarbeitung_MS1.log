@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.24)  24 OCT 2025 21:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.24)  25 OCT 2025 11:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -239,12 +239,26 @@ Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
 (/usr/share/texmf-dist/tex/latex/tools/hhline.sty
 Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 )
+(/usr/share/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count292
 \l__pdf_internal_box=\box58
 )
-(./Ausarbeitung_MS1.aux)
+(./Ausarbeitung_MS1.aux
+
+LaTeX Warning: Label `Vorlesungsfolien' multiply defined.
+
+)
 \openout1 = `Ausarbeitung_MS1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -261,8 +275,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count293
 \scratchdimen=\dimen177
@@ -302,7 +315,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Ausarbeitung_MS1.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Ausarbeitung_MS1.toc
+Overfull \hbox (26.98567pt too wide) in paragraph at lines 7--7
+ [] []\OT1/cmr/bx/n/12 Unterschiede der Mess-wert-auf-nah-me $\OML/cmm/m/it/12 
+t[]$\OT1/cmr/bx/n/12 , $\OML/cmm/m/it/12 t[]$ \OT1/cmr/bx/n/12 der S[]agezahnsp
+annung []  
+ []
+
+)
 \tf@toc=\write3
 \openout3 = `Ausarbeitung_MS1.toc'.
 
@@ -311,27 +331,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1]
 
 [2]
-<scope_0.png, id=15, 803.0pt x 541.02126pt>
+<scope_0.png, id=17, 803.0pt x 541.02126pt>
 File: scope_0.png Graphic file (type png)
 <use scope_0.png>
 Package pdftex.def Info: scope_0.png  used on input line 38.
 (pdftex.def)             Requested size: 187.19833pt x 126.1246pt.
-<scope_1.png, id=16, 803.0pt x 541.02126pt>
+<scope_1.png, id=18, 803.0pt x 541.02126pt>
 File: scope_1.png Graphic file (type png)
 <use scope_1.png>
 Package pdftex.def Info: scope_1.png  used on input line 44.
 (pdftex.def)             Requested size: 187.19833pt x 126.1246pt.
-<scope_2.png, id=17, 803.0pt x 541.02126pt>
+<scope_2.png, id=19, 803.0pt x 541.02126pt>
 File: scope_2.png Graphic file (type png)
 <use scope_2.png>
 Package pdftex.def Info: scope_2.png  used on input line 53.
 (pdftex.def)             Requested size: 187.19833pt x 126.1246pt.
-<scope_3.png, id=18, 803.0pt x 541.02126pt>
+<scope_3.png, id=20, 803.0pt x 541.02126pt>
 File: scope_3.png Graphic file (type png)
 <use scope_3.png>
 Package pdftex.def Info: scope_3.png  used on input line 59.
 (pdftex.def)             Requested size: 187.19833pt x 126.1246pt.
-<scope_5.png, id=19, 803.0pt x 541.02126pt>
+<scope_5.png, id=21, 803.0pt x 541.02126pt>
 File: scope_5.png Graphic file (type png)
 <use scope_5.png>
 Package pdftex.def Info: scope_5.png  used on input line 68.
@@ -347,7 +367,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--69
 t/12 U[]$\OT1/cmr/m/n/12 ) f[]ur ei-ne
  []
 
-<scope_6.png, id=20, 803.0pt x 541.02126pt>
+<scope_6.png, id=22, 803.0pt x 541.02126pt>
 File: scope_6.png Graphic file (type png)
 <use scope_6.png>
 Package pdftex.def Info: scope_6.png  used on input line 74.
@@ -377,30 +397,93 @@ Package pdftex.def Info: scope_9.png  used on input line 98.
 py)> <./scope_8.png (PNG copy)> <./scope_9.png (PNG copy)>]
 
 [5]
+Underfull \hbox (badness 10000) in paragraph at lines 139--142
 
-[6] (./Ausarbeitung_MS1.aux)
+ []
+
+
+Overfull \hbox (14.48878pt too wide) in paragraph at lines 143--146
+\OT1/cmr/m/n/12 2)Die fest-hal-tung, so-wie wei-ter-ver-ar-bei-tung von Si-gna-
+len ist pro-blem-los m[]oglich.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--151
+
+ []
+
+
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
+
+ []
+
+
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
+
+ []
+
+
+
+[8]
+
+[9]
+
+[10] (./Ausarbeitung_MS1.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 5947 strings out of 473190
- 96445 string characters out of 5722592
- 503946 words of memory out of 5000000
- 29144 multiletter control sequences out of 15000+600000
- 567914 words of font info for 71 fonts, out of 8000000 for 9000
+ 6066 strings out of 473190
+ 97958 string characters out of 5722592
+ 505936 words of memory out of 5000000
+ 29249 multiletter control sequences out of 15000+600000
+ 574723 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,70p,270b,438s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,13n,70p,270b,386s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/font
-s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Ausarbeitung_MS1.pdf (7 pages, 335907 bytes).
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Ausarbeitung_MS1.pdf (11 pages, 403838 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

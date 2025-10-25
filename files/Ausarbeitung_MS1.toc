@@ -3,3 +3,5 @@
 \contentsline {section}{\numberline {2}Oszillogramme}{3}{}%
 \contentsline {section}{\numberline {3}Messwertetabelle}{5}{}%
 \contentsline {section}{\numberline {4}Vorteile von Digitalen Speicheroszilloskopen}{6}{}%
+\contentsline {section}{\numberline {5}Berechnungen}{7}{}%
+\contentsline {section}{\numberline {6}Unterschiede der Messwertaufnahme $t_{r}$, $t_{f}$ der Sägezahnspannung}{9}{}%
