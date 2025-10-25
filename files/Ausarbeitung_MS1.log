@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.24)  25 OCT 2025 11:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2025.10.24)  25 OCT 2025 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,12 +437,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
@@ -480,7 +480,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Ausarbeitung_MS1.pdf (11 pages, 403838 bytes).
+Output written on Ausarbeitung_MS1.pdf (11 pages, 402517 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
