@@ -9,12 +9,12 @@
 \usepackage{array}
 \usepackage[table]{xcolor}
 \usepackage{hhline}
-
+\usepackage{bm}
 
 % Deckblatt
 \title{Ausarbeitung MS01: Messungen mit einem Oszilloskop}
 \author{Gruppe D \\ Marie Schmalz, Laurenz Wrobel, Phil Reinartz}
-\date{\today}
+\date{22.10.2025}
 
 \begin{document}
 
@@ -115,7 +115,7 @@ Es folgt die Umsetzung der in dem Versuch geforderten Punkte für die Ausarbeitu
 
 \begin{table}[h]
 	\centering
-	\caption{Messwerte mit abwechselnd grauen und weißen Zeilen}
+	\caption{Messwerte Aufnahme nach Vorgabe der Versuchsdurchführung.}
 	\rowcolors{2}{gray!15}{white} % Start bei 2. Zeile: grau, dann weiß usw.
 	\setlength{\arrayrulewidth}{0.75pt}	 
 	\resizebox{\textwidth}{!}{%
@@ -123,7 +123,7 @@ Es folgt die Umsetzung der in dem Versuch geforderten Punkte für die Ausarbeitu
     
 		\textbf{Signalformen} & $\overline{\mathbf{U}}$ [V]  & $\mathbf{U}_{\mathbf{ss}}$ [V]  & \textbf{T} [s] & $\mathbf{u}_{\mathbf{max}}$ [V]
 		& $\mathbf{u}_{\mathbf{min}}$ [V] & $\mathbf{t}_{\mathbf{r}}$ [s]   & $\mathbf{t}_{\mathbf{f}}$ [s] &  $\mathbf{t}_{\mathbf{p}}$ [s] \\
-		\hhline{|--------|}
+		\hhline{|---------|}
 		\textbf{Sinus} & 0.97 & 3.1 & 2.01m & /  & /  & /  & / & /  \\
 		\textbf{Sägezahn} & -3.15 & / & 133.33$\mu$ & 1.15  & -7.45  & $<30$n  & 104.84$\mu$ & /  \\
 		\textbf{Rechteck} & 5.94  & /  & 833n  & 8.07  & -210m  & 10.5n  & 10.5n  & 625.0n  \\
@@ -136,10 +136,122 @@ Es folgt die Umsetzung der in dem Versuch geforderten Punkte für die Ausarbeitu
 
 \section{Vorteile von Digitalen Speicheroszilloskopen}
 
+1) Wechselsignale mit geringer Frequenz können aufgrund des Anzeigespeichers vollständig dargestellt werden,
+bei einem analogen Oszilloskop könnte aufgrund des fehlenden Speichers nur der momentan Wert dargestellt werden.
+Dieser ist allerdings für Signale mit geringen Frequenzen oft unbrauchbar. \\
+
+\noindent
+2)Die festhaltung, sowie weiterverarbeitung von Signalen ist problemlos möglich.
+Bei einem analogen Oszilloskop ist dies nur schwer und beschränkt möglich (z. B. Fotografieren des Signals). \\
+
+\noindent
+3)Das Digitale Speicher Oszilloskop ist dazu in der Lage,
+Berechnungen (z. B. Mittelwertbildung, Effektivwertberechnung, ...) selber auszuführen.
+Das Analoge Oszilloskop kann dies nicht. \\
+
+\newpage
+
+\section{Berechnungen} 
+
+\vspace{1cm}
+
+\subsection*{Arithmetischer Mittelwert der Sinusspannung:}
+
+\vspace{0.75cm}
+
+Geg: T= 2.01ms, K= 972.3mV, f= 497,5Hz \\
+
+\noindent
+Ges: $\overline{U}$ = ?
+
+\vspace{1cm}
+
+\noindent
+\textbf{Berechnungsgleichungen:}
+
+\vspace{0.75cm}
+
+\noindent
+$\bm{\overline{U} = \frac{1}{T} \int_{0}^{T} u(t) \, dt} $\\
+
+\noindent
+mit \\
+
+\noindent
+$\bm{u(t) = \sin(\omega t) +K}$
+
+\vspace{1cm}
+
+\noindent
+\textbf{Berechnung:}
+
+\vspace{0.75cm}
+
+$\overline{U} = \frac{1}{2.01ms} \int_{0}^{2.01\text{ms}} \sin \left(2 \pi \cdot  497.5\text{Hz} \cdot  t \right) -972.3\text{mV}  \, dt = -972,3mV $
+
+\newpage
+
+\subsection*{Frequenz der Sägezahnspannung:}
+
+\vspace{0.75cm}
+
+Geg: T= 133.33$\mu$s \\
+
+\noindent
+Ges: f = ?
+
+\vspace{1cm}
+
+\noindent
+\textbf{Berechnungsgleichung:}
+
+\vspace{0.75cm}
+
+\noindent
+$\bm{f = \frac{1}{T}} $\\
 
 
+\vspace{1cm}
+
+\noindent
+\textbf{Berechnung:}
+
+\vspace{0.75cm}
+
+$f = \frac{1}{133.33\mu\text{s}}  = 7.5\text{kHz} $
+
+\newpage
+
+\section{Unterschiede der Messwertaufnahme $t_{r}$, $t_{f}$ der Sägezahnspannung}
+
+\vspace{1cm}
+
+\noindent
+Es ist Aufgefallen, dass die automatische Ermittlung für $t_{r}$, nur Werte $>30\mu$s dargestellt werden können.
+Bei der manuelle Ermittlung von $t_{r}$ ist der Messwert durch die Ungenauigkeit der manuellen Cursor Einstellung geprägt.
+Deshalb haben wir manuell einen Wert von 38$\mu$s ermittelt.
+Im Nachgang fällt auf, dass das Oszilloskop keine Messwert Aufnahme von 0-100\% und von 100-0\% gemacht hat,
+sondern von 0-90\% und von 90-0\% gemacht hat.
+Bei den folgenden Praktikumsversuchen muss genauer auf die Einstellung der Einzelnen Messungen geachtet werden.
 
 
+\newpage
+
+
+\begin{thebibliography}{3}
+
+	\bibitem{Vorlesungsfolien}
+		Prof. Dr.-Ing. Björn Martin Keune, \textit{Digitalspeicheroszilloskop Teil 3}, Elektrische Messtechnik, Semester 3, 2025/2026
+
+
+	\bibitem{Vorlesungsfolien}
+		Prof. Dr.-Ing. Björn Martin Keune, \textit{Kapitel 1 Wechselsignale}, Elektrotechnik 2, Semester 3, 2025/2026
+	
+	\bibitem{chatgpt}
+		Perplexity AI, genutzt für Latex Syntax, Antwort vom 24. / 25. Oktober 2025, https://perplexity.ai
+
+
+\end{thebibliography}
 
 \end{document}
 
